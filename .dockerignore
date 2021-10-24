@@ -1,0 +1,17 @@
+// own modules will be created inside the container
+node_modules 
+
+// the build command will be run inside the container and generate the same folder
+dist 
+
+// no need inside the container
+.git
+
+// this folder is used for delivery to AWS, inside the AWS there is no need
+.elasticbeanstalk 
+
+// that is a helper scripts to deliver image to ECR or to deploy environment from local machine.
+scripts
+
+// editor settings
+.idea
